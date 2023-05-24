@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">AppDemo</string>
+    <string name="hello">Hello, world!</string>
+
+    <string name="jumpToCal">计算器</string>
+
+    <string name="cal_title">简单计算器</string>
+    <string name="cancel">回退</string>
+    <string name="divide">÷</string>
+    <string name="multiply">×</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="equal">=</string>
+    <string name="point">.</string>
+    <string name="empty"> </string>
+    <string name="clear">清除</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="number_0">0</string>
+    <string name="description">这是一个简单的计算器。可以用来计算两个数的四则运算。</string>
+
+    <string name="login">登&#160; &#160; &#160; 录</string>
+    <string name="login_by_password">密码登录</string>
+    <string name="login_by_verify_code">验证码登录</string>
+    <string name="phone_number">手机号码：</string>
+    <string name="input_phone_number">请输入手机号码</string>
+    <string name="login_password">登录密码：</string>
+    <string name="input_password">请输入密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="remember_password">记住密码</string>
+    <string name="input_new_password">输入新密码：</string>
+    <string name="input_new_password_hint">请输入新密码</string>
+    <string name="confirm_new_password">确认新密码：</string>
+    <string name="input_new_password_again">重复</string>
+    <string name="verify_code">&#160; &#160; &#160; &#160; 验证码：</string>
+    <string name="input_verify_code">请输入验证码</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="done">确&#160; &#160; &#160; 定</string>
+
+    <string name="time_calculator">时长计算器</string>
+    <string name="start_time">起始时间点</string>
+    <string name="end_time">终止时间点</string>
+    <string name="calculate">计算</string>
+    <string name="tp_tp">时间点到时间点的时长计算</string>
+    <string name="tp_dur">时间点经过一段时长后的时间点</string>
+    <string name="dur_tp">时间点在一段时长之前的时间点</string>
+    <string name="add_time">增加时长</string>
+    <string name="sub_time">减少时长</string>
+
+</resources>

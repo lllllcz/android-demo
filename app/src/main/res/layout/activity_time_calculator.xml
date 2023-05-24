@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeCalculatorActivity"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请选择一种计算方式，然后再进行计算" />
+
+        <RadioGroup
+            android:id="@+id/calculate_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/tp_tp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tp_tp"/>
+
+            <RadioButton
+                android:id="@+id/tp_dur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tp_dur"/>
+
+            <RadioButton
+                android:id="@+id/dur_tp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dur_tp"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/start_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:text="@string/start_time"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TimePicker
+            android:id="@+id/start_timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"/>
+
+        <TextView
+            android:id="@+id/end_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:text="@string/end_time"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TimePicker
+            android:id="@+id/end_timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"/>
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginEnd="@dimen/text_margin"
+            android:text="@string/calculate" />
+
+        <TextView
+            android:id="@+id/time_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:text="这里显示结果"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
